@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Purchase Form</title>
+</head>
+<body style="font-family: Arial; background-color: #f2f2f2; padding: 20px;">
+    <h2 style="text-align: center;">Purchase a Book</h2>
+    <form action="purchasedbook.php" method="POST" style="max-width: 500px; margin: auto; padding: 20px; background: white; border-radius: 10px;">
+        <label>User ID:</label>
+        <input type="number" name="user_id" required style="width:100%; padding:8px;"><br><br>
+
+        <label>Book Title:</label>
+        <input type="text" name="book_title" required style="width:100%; padding:8px;"><br><br>
+
+        <label>Author:</label>
+        <input type="text" name="author" required style="width:100%; padding:8px;"><br><br>
+
+        <label>Price:</label>
+        <input type="number" name="price" step="0.01" required style="width:100%; padding:8px;"><br><br>
+
+        <label>Purchase Date:</label>
+        <input type="date" name="purchase_date" required style="width:100%; padding:8px;"><br><br>
+
+        <button type="submit" style="padding: 10px 20px; background-color: #4CAF50; color: white;">Submit</button>
+    </form>
+</body>
+</html>
